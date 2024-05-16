@@ -7,7 +7,7 @@ import Home from './Component/Home';
 // import ContactUs from './Components/ContactUs';
 // import Career from './Components/Career';
 // import Explore from './Components/Explore';
-// import Footer from './Components/Footer'
+import Footer from './Component/Footer';
 
 function App() {
   return (
@@ -63,7 +63,7 @@ function App() {
         </Routes>
       </div>
 
-      {/* <Footer /> */}
+      <Footer />
     </BrowserRouter>
   );
 }
