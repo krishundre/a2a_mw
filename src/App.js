@@ -2,7 +2,7 @@ import './App.css';
 import '../src/CSS/Navbar.css';
 import logo from '../src/Images/Transparent-01.png';
 import { Routes, Route, Link, BrowserRouter, Navigate } from 'react-router-dom';
-// import Home from './Components/Home';
+import Home from './Component/Home';
 // import AboutUs from './Components/AboutUs';
 // import ContactUs from './Components/ContactUs';
 // import Career from './Components/Career';
@@ -54,12 +54,12 @@ function App() {
 
       <div>
         <Routes>
-          {/* <Route path="/" element={<Home />} /> */}
+          <Route path="/" element={<Home />} />
           {/* <Route path="/AboutUs" element={<AboutUs />} /> */}
           {/* <Route path="/ContactUs" element={<ContactUs />} /> */}
           {/* <Route path="/Career" element={<Career />} /> */}
           {/* <Route path="/Explore" element={<Explore />} /> */}
-          {/* <Route path="*" element={<Navigate to="/" replace />} /> */}
+          <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </div>
 
