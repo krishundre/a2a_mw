@@ -4,7 +4,7 @@ import logo from '../src/Images/Transparent-01.png';
 import { Routes, Route, Link, BrowserRouter, Navigate } from 'react-router-dom';
 import Home from './Component/Home';
 import AboutUs from './Component/AboutUs';
-// import ContactUs from './Components/ContactUs';
+import ContactUs from './Component/ContactUs';
 import Career from './Component/Career';
 // import Explore from './Components/Explore';
 import Footer from './Component/Footer';
@@ -56,7 +56,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/AboutUs" element={<AboutUs />} />
-          {/* <Route path="/ContactUs" element={<ContactUs />} /> */}
+          <Route path="/ContactUs" element={<ContactUs />} />
           <Route path="/Career" element={<Career />} />
           {/* <Route path="/Explore" element={<Explore />} /> */}
           <Route path="*" element={<Navigate to="/" replace />} />
