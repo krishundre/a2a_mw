@@ -5,7 +5,7 @@ import { Routes, Route, Link, BrowserRouter, Navigate } from 'react-router-dom';
 import Home from './Component/Home';
 import AboutUs from './Component/AboutUs';
 // import ContactUs from './Components/ContactUs';
-// import Career from './Components/Career';
+import Career from './Component/Career';
 // import Explore from './Components/Explore';
 import Footer from './Component/Footer';
 
@@ -35,7 +35,7 @@ function App() {
               <Link to="/Career" className="nav-link">Career</Link>
             </li>
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Missions
               </a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -57,7 +57,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/AboutUs" element={<AboutUs />} />
           {/* <Route path="/ContactUs" element={<ContactUs />} /> */}
-          {/* <Route path="/Career" element={<Career />} /> */}
+          <Route path="/Career" element={<Career />} />
           {/* <Route path="/Explore" element={<Explore />} /> */}
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>

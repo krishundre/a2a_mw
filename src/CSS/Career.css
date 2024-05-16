@@ -1,0 +1,290 @@
+.CareerSection {
+    /* margin-top: 65px; */
+    /* height: 500px; */
+    background-color: black;
+}
+
+.CareerSectionTitle {
+    display: block;
+    padding-top: 3em;
+    /* margin-top: 5em; */
+    /* width: 980px; */
+    text-align: center;
+    color: #FFF;
+    font-family: Oswald;
+    font-size: 5em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 4px;
+
+}
+
+.CareerSectionHeading {
+    text-align: right;
+    display: block;
+    padding-top: 1em;
+    /* width: 980px; */
+    text-align: right;
+    color: #FFF;
+    font-family: Oswald;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    /* letter-spacing: 4px; */
+
+}
+
+.dropbtn {
+    background-color: #ffffff;
+    color: grey;
+    /* padding: 16px; */
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    /* font-family: Fira Sans; */
+    font: 400 12px/16px Fira Sans;
+
+
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+    display: block;
+}
+
+.CareerSectionDecrip {
+    margin: 0px 315px;
+    text-align: right;
+    display: block;
+    padding-top: 6em;
+    padding-bottom: 11em;
+    /* width: 980px; */
+    text-align: right;
+    color: #FFF;
+    font-family: Fira Sans;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    /* letter-spacing: 4px; */
+
+}
+
+
+.CareerList {
+    margin: 0px 315px;
+    margin-top: 10px;
+}
+
+.CareerListTitle {
+    /* margin: 0px 315px; */
+    text-align: center;
+    display: block;
+    padding-top: 2em;
+    /* width: 980px; */
+    /* text-align: right; */
+    color: #FFF;
+    font-family: Oswald;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 2px;
+
+}
+
+.table {
+    margin-bottom: 0px !important;
+    margin-top: 10px !important;
+    font-family: Fira Sans;
+}
+
+
+.CareerForm {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Oswald;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 30px;
+    color: #777;
+    /* background: #0CF; */
+}
+
+
+.containerFM {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact button[type="submit"] {
+    font: 400 12px/16px Fira Sans;
+}
+
+#contact {
+    background: #000;
+    padding: 25px;
+    /* margin: 50px 0; */
+}
+
+.contacttext {
+    font: 400 12px/16px Fira Sans;
+    text-align: left;
+    display: flex;
+    align-items: center;
+
+}
+
+#contact h3 {
+    color: #F96;
+    display: block;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#contact h4 {
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 13px;
+}
+
+fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+    width: 100%;
+    border: 1px solid #CCC;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact input[type="url"]:hover,
+#contact textarea:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #AAA;
+}
+
+#contact textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+}
+
+#contact button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #0CF;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#contact button[type="submit"]:hover {
+    background: #09C;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#contact input:focus,
+#contact textarea:focus {
+    outline: 0;
+    border: 1px solid #999;
+}
+
+::-webkit-input-placeholder {
+    color: #888;
+}
+
+:-moz-placeholder {
+    color: #888;
+}
+
+::-moz-placeholder {
+    color: #888;
+}
+
+:-ms-input-placeholder {
+    color: #888;
+}
+
+
+@media (max-width: 576px) {
+    .ContactSec {
+        background-color: black;
+        margin-top: 20px;
+    }
+
+    .CareerSectionTitle {
+        margin-top: 0.01em;
+        font-size: 3em;
+        /* padding-left: 1em; */
+
+    }
+
+    .CareerSectionDecrip,
+    .CareerList {
+        margin: 0px;
+    }
+}
