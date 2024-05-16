@@ -1,0 +1,469 @@
+.AboutUs {
+    background-color: black !important;
+}
+
+.AboutUsTitle {
+    display: block;
+    padding-top: 1em;
+    /* width: 980px; */
+    text-align: center;
+    color: #FFF;
+    font-family: Oswald;
+    font-size: 5em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 4px;
+}
+
+.AboutUsContent {
+    margin: 0px 15em;
+}
+
+.AboutUsImg {
+    width: 70em;
+    height: auto;
+    margin-left: 115px;
+}
+
+.AboutUsText {
+    color: #FFF;
+    /* text-align: right; */
+    font-family: "Fira Sans";
+    font-size: 1.8em;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    /* padding-left: 24em; */
+    padding-top: 1em;
+}
+
+
+.content {
+    max-width: 1024px;
+    width: 100%;
+    padding: 0 4%;
+    /* padding-top: 150px; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+    .content {
+        padding-top: 10px;
+        flex-direction: column;
+    }
+}
+
+.cardAU {
+    width: 100%;
+    max-width: 300px;
+    min-width: 200px;
+    min-height: 250px;
+    background-color: #292929;
+    margin: 19px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.24);
+    border: 2px solid rgba(7, 7, 7, 0.12);
+    font-size: 16px;
+    transition: all 0.3s ease;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    /* background-color: #2d5e7c; */
+    box-shadow:
+        0 0 20px rgba(255, 255, 255, 0.4) inset;
+}
+
+
+.cardAU .title {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    /* margin-top: 10px; */
+    color: white;
+    font-weight: 00;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-family: Oswald;
+    transition: all 0.3s ease;
+
+}
+
+.cardAU .text {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 13px;
+    text-align: center;
+    /* margin-top: 20px; */
+    color: white;
+    font-weight: 00;
+    letter-spacing: 2px;
+    opacity: 0;
+    max-height: 0;
+    transition: all 0.3s ease;
+    font-family: fira sans;
+}
+
+.cardAU:hover {
+    height: 400px;
+    transition: all 0.3s ease;
+
+}
+
+.cardAU:hover .info {
+    transition: all 0.3s ease;
+
+    height: 90%;
+}
+
+.cardAU:hover .text {
+    transition: all 0.3s ease;
+    opacity: 1;
+    max-height: 40px;
+}
+
+
+.AboutUsTM,
+.AboutUsTM::before,
+.AboutUsTM::after {
+    box-sizing: border-box;
+}
+
+.timeline {
+    position: relative;
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background: #ffffff;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -1px;
+}
+
+.containerTL {
+    padding: 15px 30px;
+    position: relative;
+    background: inherit;
+    width: 50%;
+    font-family: Owald;
+}
+
+.containerTL.left {
+    left: 0;
+}
+
+.containerTL.right {
+    left: 50%;
+}
+
+.containerTL::after {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: calc(50% - 8px);
+    right: -8px;
+    background: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 16px;
+    z-index: 1;
+}
+
+.containerTL.right::after {
+    left: -8px;
+}
+
+.containerTL::before {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    top: calc(50% - 1px);
+    right: 8px;
+    background: #ffffff;
+    z-index: 1;
+}
+
+.containerTL.right::before {
+    left: 8px;
+}
+
+.containerTL .date {
+    position: absolute;
+    display: inline-block;
+    top: calc(50% - 8px);
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: grey;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    z-index: 1;
+}
+
+.containerTL.left .date {
+    right: -75px;
+}
+
+.containerTL.right .date {
+    left: -75px;
+}
+
+.containerTL .icon {
+    position: absolute;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding: 9px 0;
+    top: calc(50% - 20px);
+    background: #000000;
+    border: 2px solid grey;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 18px;
+    color: grey;
+    z-index: 1;
+}
+
+.containerTL.left .icon {
+    right: 56px;
+}
+
+.containerTL.right .icon {
+    left: 56px;
+}
+
+.containerTL .content {
+    padding: 30px 90px 30px 30px;
+    background: #49a2dac0;
+    position: relative;
+    border-radius: 500px;
+    -webkit-mask-image: linear-gradient(-75deg, rgba(0, 0, 0, .6) 30%, #000 50%, rgba(0, 0, 0, .6) 70%);
+    -webkit-mask-size: 200%;
+    animation: shine 2s infinite;
+}
+
+.containerTL.right .content {
+    padding: 30px 30px 30px 90px;
+    border-radius: 500px;
+}
+
+.containerTL .content h2 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    font-weight: normal;
+    color: white;
+}
+
+.containerTL .content p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+
+@media (max-width: 767.98px) {
+    .timeline::after {
+        left: 90px;
+    }
+
+    .containerTL {
+        width: 100%;
+        padding-left: 120px;
+        padding-right: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .containerTL.right {
+        left: 0%;
+    }
+
+    .containerTL.left::after,
+    .containerTL.right::after {
+        left: 82px;
+    }
+
+    .containerTL.left::before,
+    .containerTL.right::before {
+        left: 100px;
+        border-color: transparent #006E51 transparent transparent;
+    }
+
+    .containerTL.left .date,
+    .containerTL.right .date {
+        right: auto;
+        left: 15px;
+    }
+
+    .containerTL.left .icon,
+    .containerTL.right .icon {
+        right: auto;
+        left: 146px;
+    }
+
+    .containerTL.left .content,
+    .containerTL.right .content {
+        padding: 30px 30px 30px 90px;
+        border-radius: 500px 0 0 500px;
+    }
+}
+
+.AboutUsTMTitle {
+    display: block;
+    padding-top: 1em;
+    /* width: 980px; */
+    text-align: center;
+    color: #FFF;
+    font-family: Oswald;
+    font-size: 5em;
+    font-style: normal;
+    font-weight: 500;
+    /* line-height: normal; */
+    letter-spacing: 4px;
+}
+
+.AboutUsTM,
+.AboutUsTM::after,
+.AboutUsTM::before {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
+.AboutUsTM {
+    /* width: 100vw; */
+    /* min-height: 100vh; */
+    /* background-color: #f0f0f0; */
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 50PX; */
+    font-size: 62.5%;
+}
+
+.containerTC {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.containerTC .box {
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+    margin: 4rem;
+}
+
+.containerTC .box:hover .imgBox {
+    transform: translate(-3.5rem, -3.5rem);
+}
+
+.containerTC .box:hover .contentTC {
+    transform: translate(3.5rem, 3.5rem);
+}
+
+.imgBox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    transition: all 0.5s ease-in-out;
+}
+
+.imgBox img {
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+    resize: both;
+}
+
+.contentTC {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    background-color: #7c7c7c;
+    z-index: 1;
+    align-items: flex-end;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+}
+
+.contentTC h2 {
+    display: block;
+    font-size: 2rem;
+    color: #111;
+    font-weight: 500;
+    line-height: 2rem;
+    letter-spacing: 1px;
+}
+
+.contentTC span {
+    color: #FFF;
+    font-size: 1.4rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+@media (max-width: 600px) {
+    .containerTC .box:hover .content {
+        transform: translate(0, 3.5rem);
+    }
+
+    .containerTC .box:hover .imgBox {
+        transform: translate(0, -3.5rem);
+    }
+
+    .AboutUsTitle {
+        padding-top: 2em;
+    }
+
+
+    .AboutUsContent {
+        margin: 0px 1em;
+    }
+
+    .AboutUsImg {
+        width: 30em;
+        height: auto;
+        margin: 0px;
+    }
+
+    .AboutUsText {
+        color: #FFF;
+        /* text-align: right; */
+        font-size: 1.5em;
+    }
+
+    .AboutUsTimeline {
+        margin-top: 70px;
+    }
+}

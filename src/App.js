@@ -3,7 +3,7 @@ import '../src/CSS/Navbar.css';
 import logo from '../src/Images/Transparent-01.png';
 import { Routes, Route, Link, BrowserRouter, Navigate } from 'react-router-dom';
 import Home from './Component/Home';
-// import AboutUs from './Components/AboutUs';
+import AboutUs from './Component/AboutUs';
 // import ContactUs from './Components/ContactUs';
 // import Career from './Components/Career';
 // import Explore from './Components/Explore';
@@ -55,7 +55,7 @@ function App() {
       <div>
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* <Route path="/AboutUs" element={<AboutUs />} /> */}
+          <Route path="/AboutUs" element={<AboutUs />} />
           {/* <Route path="/ContactUs" element={<ContactUs />} /> */}
           {/* <Route path="/Career" element={<Career />} /> */}
           {/* <Route path="/Explore" element={<Explore />} /> */}

@@ -1,0 +1,277 @@
+.Explore {
+    padding-top: 23px;
+    background-color: black;
+}
+
+
+.IntroText {
+    display: block;
+    /* padding-top: 0.2em; */
+
+    /* margin-left: 90px; */
+    /* margin-right: 90px; */
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+    font-family: Oswald;
+    font-size: 5em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 4px;
+}
+
+.ExploreImg {
+    margin: 0px 28em;
+    border-radius: 2%;
+}
+
+.Features {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.FeaturesText,
+.SolutionTitle {
+    display: block;
+    /* padding-top: 0.2em; */
+
+    /* margin-left: 90px; */
+    /* margin-right: 90px; */
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+    font-family: Oswald;
+    font-size: 3em;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2px;
+}
+
+.FeaturesContent {
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+    font-family: Fira Sans;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    /* letter-spacing: 1px; */
+}
+
+.SolutionSec {
+    font-family: Oswald;
+}
+
+.warpperEX {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.tab {
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 0px 2px;
+    background: #000;
+    font-size: 2em;
+    display: inline-block;
+    color: #fff;
+    border-radius: 3px 3px 0px 0px;
+    box-shadow: 0 0.5rem 0.8rem #00000080;
+}
+
+.tab:hover {
+    background-color: grey;
+}
+
+.panels {
+    background: #fffffff6;
+    box-shadow: 0 2rem 2rem #00000080;
+    min-height: 200px;
+    width: 100%;
+    max-width: 800px;
+    border-radius: 3px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.panel {
+    display: none;
+    animation: fadein .8s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.panel-title {
+    font-size: 1.5em;
+    font-weight: bold
+}
+
+.radio {
+    display: none;
+}
+
+#one:checked~.panels #one-panel,
+#two:checked~.panels #two-panel,
+#three:checked~.panels #three-panel {
+    display: block
+}
+
+#one:checked~.tabs #one-tab,
+#two:checked~.tabs #two-tab,
+#three:checked~.tabs #three-tab {
+    background: #ffffff61;
+    color: #000;
+    border-top: 3px solid #000;
+}
+
+
+
+
+.containerEX {
+    position: relative;
+    /* width: 1000px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* padding: 35px; */
+    font-family: Fira Sans;
+}
+
+/*Apply css properties to card class*/
+
+
+.panel-title {
+    font-family: Oswald;
+    font-size: 2em;
+    text-align: center;
+}
+
+.containerEX .cardEX {
+    /* height: 220px; */
+    max-width: 200px;
+    position: relative;
+    margin: 10px 10px;
+    padding: 20px 15px;
+    background: grey;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 1px 20px black;
+    transition: 0.3s ease-in-out;
+    border-radius: 15px;
+}
+
+/*Apply css properties to card class when it get pointed by cursor*/
+
+.containerEX .cardEX:hover {
+    height: auto;
+}
+
+/*Apply css properties to imgbox class*/
+
+.containeEX .cardEX .imgboxEX {
+    position: relative;
+    width: 260px;
+    height: 260px;
+    top: -60px;
+    left: 20px;
+}
+
+/*Apply css properties to img tag*/
+
+.containerEX .cardEX .imgboxEX img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+/*Apply css properties to content class*/
+
+.containerEX .cardEX .contentEX {
+    position: relative;
+    margin-top: -100px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+/*Apply css properties to content when card gets hovered*/
+
+.containerEX .cardEX:hover .contentEX {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -10px;
+    transition-delay: 0.3s;
+}
+
+/* Css part completed*/
+
+
+.Deliverables {
+    padding-top: 10px;
+    width: 100%;
+}
+
+.DeliverablesContent {
+    padding-top: 10px;
+}
+
+@media (max-width: 576px) {
+    .IntroText {
+        display: block;
+
+        width: 100%;
+        text-align: center;
+        color: #FFF;
+        font-family: Oswald;
+        font-size: 3em;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1px;
+    }
+
+    .ExploreImg {
+        margin: 0px 0px;
+        width: 390px;
+        border-radius: 2%;
+    }
+
+    .FeaturesText,
+    .SolutionTitle {
+        display: block;
+        margin-top: 1em;
+        /* width: 980px; */
+        text-align: center;
+        color: #FFF;
+        font-family: Oswald;
+        font-size: 2em;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1px;
+    }
+
+    .tab {
+        padding: 5px 15px;
+        margin: 0px 2px;
+        background: #000;
+        font-size: 1.5em;
+        display: inline-block;
+    }
+}
