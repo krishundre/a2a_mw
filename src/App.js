@@ -22,7 +22,7 @@ function App() {
 
         <div className="collapse navbar-collapse navbar-set" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
-            <li className="nav-item ">
+            <li className="nav-item">
               <Link to="/" className="nav-link">Home</Link>
             </li>
             <li className="nav-item">
