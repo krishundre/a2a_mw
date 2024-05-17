@@ -86,3 +86,9 @@ li>a:hover,
     }
 
 }
+
+@media (min-width: 992px) {
+    .navbar-set {
+        margin-left: 10%;
+    }
+}
