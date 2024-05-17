@@ -410,8 +410,9 @@
         display: flex;
         justify-content: space-evenly;
         padding: 0px 9em;
-        padding-bottom: 3em;
+        /* padding-bottom: 3em; */
         /* height: 40em; */
+        margin-bottom: 15px;
 
     }
 
@@ -419,7 +420,7 @@
         display: block;
         margin-top: 1em;
         /* width: 980px; */
-        text-align: left;
+        text-align: center;
         color: #FFF;
         font-family: Oswald;
         font-size: 2em;
