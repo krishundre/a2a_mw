@@ -135,7 +135,9 @@
     margin-right: 90px;
 }
 
-.mission_tech {}
+.MissionTech {
+    height: 66em;
+}
 
 .mission_layout {
     /* max-width: 1440px; */
@@ -251,9 +253,10 @@
 .SuccessYrs {
     height: fit-content;
     height: auto;
-
+    background: linear-gradient(to bottom, black, grey);
     display: flex;
     justify-content: center;
+    border-radius: 0px 0px 80px 80px;
 }
 
 .seven {
@@ -578,5 +581,27 @@
         height: 5em;
         filter: drop-shadow(0 0 10px rgb(255, 255, 255));
         margin: 0px;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .mission_title,
+    .mission_title_2 {
+        font-size: 4em;
+        line-height: 45px;
+    }
+
+    .mission_content,
+    .mission_content_2 {
+        font-size: 1.5em;
+    }
+
+    .MissionTech {
+        height: 50em;
+    }
+
+    .breaker {
+        display: none;
     }
 }
