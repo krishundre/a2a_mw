@@ -1,9 +1,22 @@
 import '../CSS/AboutUs.css';
 // import React, { Component } from 'react'
 import TeamImg from '../Team Photo/img1.jpg'
-import AboutUsStats from './AboutUsStats'
+import AboutUsStats from './AboutUsStats';
+import { Tilt } from 'react-tilt'
+
 
 function AboutUs() {
+    const defaultOptions = {
+        reverse: false,  // reverse the tilt direction
+        max: 35,     // max tilt rotation (degrees)
+        perspective: 1000,   // Transform perspective, the lower the more extreme the tilt gets.
+        scale: 1.1,    // 2 = 200%, 1.5 = 150%, etc..
+        speed: 1000,   // Speed of the enter/exit transition
+        transition: true,   // Set a transition on enter/exit.
+        axis: null,   // What axis should be disabled. Can be X or Y.
+        reset: true,    // If the tilt effect has to be reset on exit.
+        easing: "cubic-bezier(.03,.98,.52,.99)",    // Easing on enter/exit.
+    }
     return (
         <div>
             <div className='AboutUs'>
@@ -34,64 +47,82 @@ function AboutUs() {
                 <div className='AboutUsTimeline'>
                     <div className="timeline">
                         <div className="containerTL left">
-                            <div className="date">5-10-19</div>
-                            <i className="icon fa fa-home"></i>
-                            <div className="content">
-                                <h2>Mayvi 2019 at Hindustan University, Chennai</h2>
-                                <p>
-                                    Make Your Vimana 2019 was hosted at Hindustan University. Like the previous year, Mayvi 2k19 was also a huge success.
-                                </p>
-                            </div>
+                            <Tilt options={defaultOptions}>
+
+                                <div className="date">5-10-19</div>
+                                <i className="icon fa fa-home"></i>
+                                <div className="content">
+                                    <h2>Mayvi 2019 at Hindustan University, Chennai</h2>
+                                    <p>
+                                        Make Your Vimana 2019 was hosted at Hindustan University. Like the previous year, Mayvi 2k19 was also a huge success.
+                                    </p>
+                                </div>
+                            </Tilt>
                         </div>
                         <div className="containerTL right">
-                            <div className="date">5-10-19</div>
-                            <i className="icon fa fa-home"></i>
-                            <div className="content">
-                                <h2>Mayvi 2019 at Hindustan University, Chennai</h2>
-                                <p>
-                                    Make Your Vimana 2019 was hosted at Hindustan University. Like the previous year, Mayvi 2k19 was also a huge success.
-                                </p>
-                            </div>
+                            <Tilt options={defaultOptions}>
+
+                                <div className="date">5-10-19</div>
+                                <i className="icon fa fa-home"></i>
+                                <div className="content">
+                                    <h2>Mayvi 2019 at Hindustan University, Chennai</h2>
+                                    <p>
+                                        Make Your Vimana 2019 was hosted at Hindustan University. Like the previous year, Mayvi 2k19 was also a huge success.
+                                    </p>
+                                </div>
+                            </Tilt>
                         </div>
                         <div className="containerTL left">
-                            <div className="date">5-10-19</div>
-                            <i className="icon fa fa-home"></i>
-                            <div className="content">
-                                <h2>Mayvi 2019 at Hindustan University, Chennai</h2>
-                                <p>
-                                    Make Your Vimana 2019 was hosted at Hindustan University. Like the previous year, Mayvi 2k19 was also a huge success.
-                                </p>
-                            </div>
+                            <Tilt options={defaultOptions}>
+
+                                <div className="date">5-10-19</div>
+                                <i className="icon fa fa-home"></i>
+                                <div className="content">
+                                    <h2>Mayvi 2019 at Hindustan University, Chennai</h2>
+                                    <p>
+                                        Make Your Vimana 2019 was hosted at Hindustan University. Like the previous year, Mayvi 2k19 was also a huge success.
+                                    </p>
+                                </div>
+                            </Tilt>
                         </div>
                         <div className="containerTL right">
-                            <div className="date">5-10-19</div>
-                            <i className="icon fa fa-home"></i>
-                            <div className="content">
-                                <h2>Mayvi 2019 at Hindustan University, Chennai</h2>
-                                <p>
-                                    Make Your Vimana 2019 was hosted at Hindustan University. Like the previous year, Mayvi 2k19 was also a huge success.
-                                </p>
-                            </div>
+                            <Tilt options={defaultOptions}>
+
+                                <div className="date">5-10-19</div>
+                                <i className="icon fa fa-home"></i>
+                                <div className="content">
+                                    <h2>Mayvi 2019 at Hindustan University, Chennai</h2>
+                                    <p>
+                                        Make Your Vimana 2019 was hosted at Hindustan University. Like the previous year, Mayvi 2k19 was also a huge success.
+                                    </p>
+                                </div>
+                            </Tilt>
                         </div>
                         <div className="containerTL left">
-                            <div className="date">5-10-19</div>
-                            <i className="icon fa fa-home"></i>
-                            <div className="content">
-                                <h2>Mayvi 2019 at Hindustan University, Chennai</h2>
-                                <p>
-                                    Make Your Vimana 2019 was hosted at Hindustan University. Like the previous year, Mayvi 2k19 was also a huge success.
-                                </p>
-                            </div>
+                            <Tilt options={defaultOptions}>
+
+                                <div className="date">5-10-19</div>
+                                <i className="icon fa fa-home"></i>
+                                <div className="content">
+                                    <h2>Mayvi 2019 at Hindustan University, Chennai</h2>
+                                    <p>
+                                        Make Your Vimana 2019 was hosted at Hindustan University. Like the previous year, Mayvi 2k19 was also a huge success.
+                                    </p>
+                                </div>
+                            </Tilt>
                         </div>
                         <div className="containerTL right">
-                            <div className="date">5-10-19</div>
-                            <i className="icon fa fa-home"></i>
-                            <div className="content">
-                                <h2>Mayvi 2019 at Hindustan University, Chennai</h2>
-                                <p>
-                                    Make Your Vimana 2019 was hosted at Hindustan University. Like the previous year, Mayvi 2k19 was also a huge success.
-                                </p>
-                            </div>
+                            <Tilt options={defaultOptions}>
+
+                                <div className="date">5-10-19</div>
+                                <i className="icon fa fa-home"></i>
+                                <div className="content">
+                                    <h2>Mayvi 2019 at Hindustan University, Chennai</h2>
+                                    <p>
+                                        Make Your Vimana 2019 was hosted at Hindustan University. Like the previous year, Mayvi 2k19 was also a huge success.
+                                    </p>
+                                </div>
+                            </Tilt>
                         </div>
                     </div>
 
