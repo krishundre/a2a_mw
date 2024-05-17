@@ -45,13 +45,10 @@ function App() {
                 <a className="dropdown-item" href="/">Something else here</a>
               </div>
             </li>
-          </ul>
-          <div className="form-inline my-2 my-lg-0">
-
             <li className="nav-item">
               <Link to="/ContactUs" className="nav-link">Contact Us</Link>
             </li>
-          </div>
+          </ul>
         </div>
       </nav>
 

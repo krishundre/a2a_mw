@@ -76,7 +76,7 @@ li>a:hover,
 
 @media (max-width: 576px) {
     .navbar-set {
-        padding-left: 0em;
+        /* padding-left: 0em; */
     }
 
     .Navlogo {
