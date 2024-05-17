@@ -21,7 +21,7 @@ nav {
 
 
 .navbar-set {
-    padding-left: 25%;
+    margin-left: 25%;
 }
 
 .nav-prop {
@@ -87,7 +87,7 @@ li>a:hover,
 
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 992px) {
     .navbar-set {
         margin-left: 8%;
     }
