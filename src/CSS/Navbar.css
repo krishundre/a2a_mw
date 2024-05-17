@@ -43,7 +43,7 @@ li {
     color: #777777 !important;
     text-align: center;
     font-family: Oswald;
-    font-size: 2rem !important;
+    font-size: x-large !important;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -96,5 +96,19 @@ li>a:hover,
         width: 20em;
         height: 3.25em;
         margin: auto;
+    }
+
+    .nav-link,
+    .dropdown-item {
+        color: #777777 !important;
+        text-align: center;
+        font-family: Oswald;
+        font-size: large !important;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1px;
+        transition: all .5s ease-in;
+        margin: 0px 2px;
     }
 }
