@@ -91,4 +91,10 @@ li>a:hover,
     .navbar-set {
         margin-left: 10%;
     }
+
+    .Navlogo {
+        width: 20em;
+        height: 3.25em;
+        margin: auto;
+    }
 }
