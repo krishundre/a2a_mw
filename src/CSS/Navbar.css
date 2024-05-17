@@ -43,7 +43,7 @@ li {
     color: #777777 !important;
     text-align: center;
     font-family: Oswald;
-    font-size: x-large !important;
+    font-size: xx-large !important;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -87,14 +87,14 @@ li>a:hover,
 
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
     .navbar-set {
-        margin-left: 10%;
+        margin-left: 8%;
     }
 
     .Navlogo {
-        width: 20em;
-        height: 3.25em;
+        width: 15em;
+        height: 2.25em;
         margin: auto;
     }
 
@@ -110,5 +110,9 @@ li>a:hover,
         letter-spacing: 1px;
         transition: all .5s ease-in;
         margin: 0px 2px;
+    }
+
+    .navbar-set {
+        padding: 0px;
     }
 }
