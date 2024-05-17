@@ -82,7 +82,7 @@ function Home() {
                                 <div className="col mission_content_2">The Aero2Astro team is currently engaged in the FLYALOT DRONEAID project, aimed at developing a UAV (Unmanned Aerial Vehicle) designed to provide aid to soldiers stationed at our borders and in war zones.
                                     <br></br>
                                     <br></br>
-                                    This innovative drone is intended to assist soldiers who are affected by climatic changes, sustain injuries, or become unconscious while on duty.Utilizing data accumulated over the years, we have engineered a resilient AI engine tailored to meet the operational and business requirements of our enterprise clientele.</div>
+                                    This innovative drone is intended to assist soldiers who are affected by climatic changes, sustain injuries, or become unconscious while on duty.</div>
                             </div>
                             <div className="col mission_button_2">
                                 <a href="/" className="btn btn-primary btn-lg button2 " role="button" aria-pressed="true">More on Mission Tech</a>

@@ -110,6 +110,9 @@
     text-align: center;
 }
 
+.mission_layout .row {
+    /* width: 20em; */
+}
 
 .mission_title {
     display: block;
@@ -131,6 +134,8 @@
     margin-left: 90px;
     margin-right: 90px;
 }
+
+.mission_tech {}
 
 .mission_layout {
     /* max-width: 1440px; */
@@ -197,6 +202,7 @@
     font-weight: 700;
     line-height: normal;
     letter-spacing: 4px;
+
 }
 
 
@@ -209,6 +215,8 @@
     font-weight: 400;
     line-height: normal;
     padding-top: 2em;
+    padding-right: 24em;
+
 }
 
 .mission_button_2 {
