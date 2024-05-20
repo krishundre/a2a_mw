@@ -89,10 +89,11 @@
         font-size: 5em;
         margin-left: 90px;
         margin-right: 90px;
+        padding-top: 1.5em;
     }
 
     .button1 {
-        margin-left: 40em;
+        /* margin-left: 40em; */
     }
 }
 
