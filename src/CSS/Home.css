@@ -12,75 +12,87 @@
     border: none;
 }
 
+/* Base styles */
 .Home {
     background-color: black;
     width: 100%;
     scroll-behavior: smooth;
-
-    /* margin: 0px 5px; */
-    /* height: 1000px; */
 }
 
 .Intro {
     padding-top: 53px;
-    /* height: 40em; */
 }
 
 .card-img-overlay {
     display: block;
-    /* align-items: center; */
-    /* justify-content: center; */
 }
 
 #HomeBG {
-    /* transform: scale(3); */
     background-color: #f0f0f0;
-    /* transform: scale(20); */
     height: 100vh;
     /* sets the height to 100% of the viewport */
     width: 100vw;
-    /* tra */
 }
 
 .HomeText {
     display: block;
     padding-top: 3em;
-    margin-left: 90px;
-    margin-right: 90px;
-    /* width: 980px; */
+    margin: 0 5%;
     text-align: left;
     color: #FFF;
     font-family: Oswald;
-    font-size: 5em;
+    font-size: 3em;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 4px;
-
 }
 
 .button1 {
-    margin-left: 40em !important;
-    margin-top: 100px !important;
-    display: flex !important;
-    width: fit-content !important;
-    padding: 15px !important;
-    align-items: flex-start !important;
-    gap: 8px !important;
-    border-radius: 6px !important;
-    border: 1px solid #FFF !important;
-    background: var(--Primary-Color-Dark, #464646) !important;
+    margin: 100px auto 0;
+    display: flex;
+    width: fit-content;
+    padding: 15px;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: 6px;
+    border: 1px solid #FFF;
+    background: var(--Primary-Color-Dark, #464646);
 }
 
 .button1:hover {
-    background: var(--Secondary-color, #49A3DA) !important;
+    background: var(--Secondary-color, #49A3DA);
 }
 
 .button1:active {
-    /* border-radius: 6px; */
-    border: 1px solid #000 !important;
-    /* background: var(--Secondary-color, #49A3DA); */
+    border: 1px solid #000;
 }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .HomeText {
+        font-size: 4em;
+        margin: 0 10%;
+    }
+
+    .button1 {
+        margin-left: 20em;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .HomeText {
+        font-size: 5em;
+        margin-left: 90px;
+        margin-right: 90px;
+    }
+
+    .button1 {
+        margin-left: 40em;
+    }
+}
+
 
 .Tiles {
     display: flex;
