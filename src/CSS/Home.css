@@ -136,6 +136,10 @@
         font-size: 2.5em;
     }
 
+    .tiles_title .image_tops {
+        height: 4em;
+    }
+
     .TilesContent {
         font-size: 18px;
     }
