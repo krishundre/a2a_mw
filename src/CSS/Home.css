@@ -52,7 +52,7 @@
 }
 
 .button1 {
-    margin: 100px auto 0;
+    margin: 8em auto;
     display: flex;
     width: fit-content;
     padding: 15px;
@@ -79,6 +79,7 @@
     }
 
     .button1 {
+        margin: 5em auto;
         margin-left: 20em;
     }
 }
